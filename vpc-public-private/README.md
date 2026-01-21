@@ -78,19 +78,19 @@ flowchart TB
 
 ### Security Features
 
-- ✅ Public/Private subnet segregation
-- ✅ Security groups with least-privilege access
-- ✅ Network ACLs for subnet-level protection
-- ✅ Private subnets have no direct internet access
-- ✅ VPC Flow Logs for network monitoring
-- ✅ Encrypted VPC peering connections
+-  Public/Private subnet segregation
+-  Security groups with least-privilege access
+-  Network ACLs for subnet-level protection
+-  Private subnets have no direct internet access
+-  VPC Flow Logs for network monitoring
+-  Encrypted VPC peering connections
 
 ### High Availability Features
 
-- 🔄 Multi-AZ deployment for fault tolerance
-- 🔄 NAT Gateways in each AZ
-- 🔄 Cross-region VPC peering for disaster recovery
-- 🔄 Redundant internet gateways
+-  Multi-AZ deployment for fault tolerance
+-  NAT Gateways in each AZ
+-  Cross-region VPC peering for disaster recovery
+-  Redundant internet gateways
 
 ## Terraform Resources
 
@@ -380,7 +380,7 @@ aws ec2 terminate-instances --instance-ids <instance-id>
 terraform destroy
 ```
 
-**⚠️ Warning**: This will delete:
+** Warning**: This will delete:
 - All VPCs
 - NAT Gateways
 - Elastic IPs
